@@ -15,4 +15,6 @@ module.exports = (exception = []) => {
             localCommands.push(commandObject);
         }
     }
+
+    return localCommands;
 }
